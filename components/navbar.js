@@ -2,7 +2,7 @@ import { Navbar, Nav, NavDropdown, FormControl, Form, Button } from "react-boots
 
 export default function NavBarCustom() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
       <Navbar.Brand href="/">SMED</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
