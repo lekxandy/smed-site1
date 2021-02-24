@@ -1,0 +1,30 @@
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template: column;
+    gap: 0.4rem;
+    align-items: center;
+    text-align: center;
+}
+
+
+.nota{
+    color: rgb(255,0,0);
+    font-size: 2rem;
+}
+
+.button{
+    width: 5rem;
+    height: 2rem;
+    margin: 0;
+    background-color: rgba(0,0,255, .5);
+    color: #fff;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+.footer{
+    padding: 2rem;
+}
